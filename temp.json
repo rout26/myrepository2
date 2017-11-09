@@ -1,0 +1,49 @@
+[
+{
+    "csagroup": "C3_SAP",
+     "westus": {
+       "nonprod": {
+          "network-resourcegroup": "az-np-westus-sub01-network",
+          "netsecurity-resourcegroup": "az-np-westus-sub01-netstructures",
+          "vnet": "az-np-westus-sub01-network-vnet",
+          "subnet": {
+                   "mgmt": "C3_SAP-subnet01",
+                   "web": "C3_SAP-subnet02",
+                   "app": "C3_SAP-subnet03",
+                   "db": "C3_SAP-subnet04" }
+        },
+       "prod": {
+       }
+     },
+
+     "westus2": {
+       "nonprod": {
+          "network-resourcegroup": "az-np-westus2-sub01-network",
+          "netsecurity-resourcegroup": "az-np-westus2-sub01-netstructures",
+          "vnet": "az-np-westus2-sub01-network-vnet",
+          "subnet": {
+                   "mgmt": "C3_SAP-subnet01",
+                   "web": "C3_SAP-subnet02",
+                   "app": "C3_SAP-subnet03",
+                   "db": "C3_SAP-subnet04" }
+        },
+       "prod": {
+       }
+     },
+
+     "eastus2": {
+       "nonprod": {
+          "network-resourcegroup": "az-np-eastus2-sub01-network",
+          "netsecurity-resourcegroup": "az-np-eastus2-sub01-netstructures",
+          "vnet": "az-np-eastus2-sub01-network-vnet",
+          "subnet": {
+                   "mgmt": "C3_SAP-subnet01",
+                   "web": "C3_SAP-subnet02",
+                   "app": "C3_SAP-subnet03",
+                   "db": "C3_SAP-subnet04" }
+        },
+       "prod": {
+       }
+     },
+}
+]
