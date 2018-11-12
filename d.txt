@@ -1,1 +1,3 @@
 fourth file, line one
+
+fourth file, line two
